@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(-45deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/grawend.jpg);
+     background-size: cover;
+}
+nav{
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
+nav h3{
+    color: #fff;
+    font-weight: 500;
+    pointer-events: none;
+    initial-letter: 2px;
+
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    margin: 0 12px;
+    padding: 8px 12px;
+    list-style: none;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ccc;
+    font-size: 13px;
+}
+nav ul li a:hover {
+    color: #fff; /* تغيير لون النص عند التمرير */
+    font-weight: 700; /* زيادة سماكة النص */
+    text-decoration: underline; /* إضافة خط تحت النص عند التمرير */
+    transition: color 0.3s ease, font-weight 0.3s ease; /* إضافة حركة سلسة */
+}
+
+hr{
+    margin-right: -200px;
+    border: none;
+    height: 93vh;
+    width: 1px;
+    background-color: #fff;
+
+}
+nav button{
+    color: #fff;
+    height: 30px;
+    border-radius: 17px;
+    padding: 7px 13px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #fff;
+
+}
+nav button:hover{
+    background-color: #fff;
+    color: #000;
+    transition: .3s;
+
+}
+.content{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    height: 400px;
+    border-radius:25px ;
+    overflow: hidden;
+    border: 2px solid #ccc ;
+
+}
+.content img{
+    height: 100%;
+}
+.text{
+
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50);
+    color: #fff;
+    pointer-events: none;
+}
+.text h1{
+    font-weight: 900;
+    font-size: 72px;
+    letter-spacing: 8px;
+}
+.text h3{
+
+    font-size: 45px;
+    letter-spacing: 5px;
+}
+
+.text p{
+color: #ccc;
+font-size:16px ;
+margin-top: 10px;
+letter-spacing: 3px;
+
+}
+
+.social {
+    position: absolute;
+    top: 50%; /* توسيط العنصر عموديًا */
+    right: 0; /* اجعل العناصر تلتصق بالجانب الأيمن */
+    transform: translateY(-50%) rotate(-90deg); /* اجعل العناصر أفقية ومتناسقة */
+    z-index: 10; /* تأكد من ظهور العناصر فوق محتوى آخر */
+}
+
+.social a {
+    color: #fff;
+    padding: 0 10px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: 0.3s ease; /* حركة سلسة عند التفاعل */
+}
+
+.social a:hover {
+    color: var(--primarycolor); /* تغيير اللون عند التمرير */
+    transform: scale(1.1); /* تكبير العنصر قليلاً عند التمرير */
+}
+.perfumes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 70px;
+
+}
+.perfumes img{
+    margin: 10px;
+    height: 100%;
+    cursor: pointer;
+    border: 2px solid #fff;
+    transition: .3S;
+
+}
+.perfumes img:hover{
+    transform: scale(1.2);
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
